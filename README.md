@@ -17,7 +17,7 @@ This small file fixes it. It takes about a minute.
 
 It goes to your **Downloads** folder. If your browser asks whether to keep the file, choose **Keep**.
 
-### 2. Put it in the game folder
+### 2. Copy it to the game folder
 
 1. Open **Steam** and go to your **Library**.
 2. **Right-click** *Command & Conquer™ Generals Zero Hour*.
