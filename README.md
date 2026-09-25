@@ -117,7 +117,7 @@ The game normally uses a file called `dinput8.dll` for mouse and keyboard input,
 
 You're right to ask, since this is a file from the internet. How to check:
 
-- **The full source code is on this page.** It's short, readable C: `dinput8.c` (passes input through to the real dinput8), `appname_fix.c` (the fix itself) and `log.c` (the log file).
+- **The full source code is in the [`source`](source) folder.** It's short, readable C: `dinput8.c` (passes input through to the real dinput8), `appname_fix.c` (the fix itself) and `log.c` (the log file).
 - **Check the file's fingerprint** to make sure the file you downloaded is exactly the one released here.
   - Windows: open PowerShell in your Downloads folder (Shift + right-click in the folder → *Open PowerShell window here*) and run `Get-FileHash dinput8.dll`
   - Linux: `sha256sum dinput8.dll`
@@ -135,10 +135,11 @@ On Ubuntu/Debian:
 
 ```
 sudo apt install gcc-mingw-w64-i686
+cd source
 ./build.sh
 ```
 
-The finished file appears as `build/dinput8.dll`. Its fingerprint won't match the released one, because different compiler versions produce slightly different files. That's expected. On Windows you can build it with MSYS2's `mingw-w64-i686-gcc` using the same commands as in `build.sh`.
+The finished file appears as `source/build/dinput8.dll`. Its fingerprint won't match the released one, because different compiler versions produce slightly different files. That's expected. On Windows you can build it with MSYS2's `mingw-w64-i686-gcc` using the same commands as in `build.sh`.
 
 ---
 
