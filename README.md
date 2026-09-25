@@ -30,7 +30,7 @@ Start the game from Steam as usual. That's it! 🎉
 
 ---
 
-**Did it work?** Please say so in the [Steam discussion thread](https://steamcommunity.com/app/2732960/discussions/0/586186803158068745/). It has been tested on Linux. It's made for Windows too, but reports from Windows players are very welcome.
+**Did it work?** Please say so in the [Steam discussion thread](https://steamcommunity.com/app/2732960/discussions/0/586186803158068745/). It's confirmed working on **Windows 10, Windows 11 and Linux**.
 
 **Didn't work?** See [If it didn't work](#if-it-didnt-work) below.
 
@@ -111,7 +111,8 @@ The game normally uses a file called `dinput8.dll` for mouse and keyboard input,
 |---|---|
 | Linux (Proton) | ✅ Tested, works |
 | Steam Deck | Should work (it's the same as Linux), not tested yet |
-| Windows | Made for it, not tested yet on a real Windows PC. Reports welcome! |
+| Windows 10 / 11 | ✅ Confirmed working by players (see [Thanks](#thanks)) |
+| Windows 7 / 8 | Should work, not tested yet |
 
 ## Is this file safe?
 
@@ -143,4 +144,10 @@ The finished file appears as `source/build/dinput8.dll`. Its fingerprint won't m
 
 ---
 
-*Tested on Ubuntu with Proton Experimental. The base game **Generals** (app 2229870) looks like it has the same Store problem. This fix should work for it too, but it hasn't been tested there.*
+## Thanks
+
+Thanks to **Fol24** (Windows 10) and **Jirik** (Windows 11) from the [Steam discussion thread](https://steamcommunity.com/app/2732960/discussions/0/586186803158068745/) for trying the fix and confirming it works on Windows. 🙏
+
+---
+
+*Tested on Ubuntu with Proton Experimental, and confirmed by players on Windows 10 and 11. The base game **Generals** (app 2229870) looks like it has the same Store problem. This fix should work for it too, but it hasn't been tested there.*
